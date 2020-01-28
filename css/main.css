@@ -114,6 +114,19 @@ body {
   font-family: Lora, serif;
   font-size: 2em;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px dotted #ffffff;
+}
+.main {
+  font-weight: 300;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: dimgrey;
+  font-size: 1.25em;
+  text-align: center;
 }
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
@@ -121,6 +134,17 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.footer {
+  color: #fff;
+  font-family: Lora, serif;
+  font-size: 1em;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px dotted #ffffff;
+  margin-top: 1%;
 }
 
 .div-1, .div-2, .div-3 {
